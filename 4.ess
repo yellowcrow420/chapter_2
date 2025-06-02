@@ -1,0 +1,5 @@
+start
+new equation number
+set equation 2 + 2 * 2
+log string "x = " + equation
+finish
