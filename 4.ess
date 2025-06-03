@@ -1,5 +1,13 @@
 start
+new mult number
+set mult 0
+new i number
+set i 0
+loop multiplication (2 > i)
+set i i + 1
+set mult mult + 2
+end multiplication
 new equation number
-set equation 2 + 2 * 2
-log string "x = " + equation
+set equation 2 + mult
+log string "x = " >> equation
 finish
